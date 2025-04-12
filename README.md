@@ -92,10 +92,11 @@ This document describes the complete bit‑true fixed‑point algorithm for the 
 ### Step 6: PSNR Calculation
 - **Formula:**
 
-  \[
-  \text{PSNR} = 10 \cdot \log_{10}\left(\frac{255^2}{\text{MSE}}\right)
-  \]
-  
+$$
+\text{PSNR} = 10 \cdot \log_{10}\left(\frac{255^2}{\text{MSE}}\right)
+$$
+
+
   where **MSE** is the mean squared error between the original image and the reconstructed image.
   
 - **Requirement:** The PSNR must be ≥ 40 dB.
